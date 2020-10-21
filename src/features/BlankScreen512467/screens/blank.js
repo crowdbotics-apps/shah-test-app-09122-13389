@@ -1,6 +1,6 @@
 import React from "react"
 import {
-  View, 
+  View,
   Image,
   ImageBackground,
   TouchableOpacity,
@@ -29,6 +29,10 @@ export default class Blank extends React.Component {
     <View>
       <Button title="Press me!" onPress={() => alert("Pressed!")} />
       <Text>Sample text content</Text>
+      <View style={styles.View_4}>
+        <View />
+        <View />
+      </View>
     </View>
   )
 }
@@ -43,5 +47,11 @@ const styles = StyleSheet.create({
   Button_2: {},
   View_1: {},
   Button_2: {},
-  Text_3: {}
+  Text_3: {},
+  View_1: {},
+  Button_2: {},
+  Text_3: {},
+  View_4: { flexDirection: "row" },
+  View_5: {},
+  View_6: {}
 })
